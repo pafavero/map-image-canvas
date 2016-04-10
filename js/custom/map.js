@@ -87,10 +87,8 @@ MAP.Map = (function () {
 
       if (_this.id === 'map-1'){
         MAP.imageCanvas.addFeatures(_feature);
-        MAP.imageCanvas.imageCanvasSource.changed();
       }else{
         MAP.imageCanvasForExternLabel.addFeatures(_feature);
-        MAP.imageCanvasForExternLabel.imageCanvasSource.changed();
       }
     });
   };

@@ -38,6 +38,7 @@ MAP.imageCanvas = {
     }, function (d) {
       return d;
     });
+    this.imageCanvasSource.changed();
   },
   canvasFunction: function (extent, resolution, pixelRatio,
       size, projection) {
