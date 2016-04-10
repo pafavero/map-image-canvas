@@ -1,0 +1,145 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5465504, 45.5469278]
+            },
+            "properties": {
+                "title": "Basilica Palladiana",
+                "type": "custom-label"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5492594, 45.5489753]
+            },
+            "properties": {
+                "title": "Palazzo Chiericati",
+                "type": "custom-label"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5494204, 45.5501661]
+            },
+            "properties": {
+                "title": "Olympic Theatre",
+                "type": "custom-label"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5455821, 45.5483686]   
+            },
+            "properties": {
+                "title": "Palazzo Porto",
+                "type": "custom-label",
+                "isReverse": "true"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5415132, 45.5461351]
+            },
+            "properties": {
+                "title": "Castello square",
+                "type": "custom-label",
+                "isReverse": "true"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5440023, 45.5462666]
+            },
+            "properties": {
+                "title": "Cathedral",
+                "type": "custom-label",
+                "isReverse": "true"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5478432, 45.5492946]
+            },
+            "properties": {
+                "title": "Chirch Santa Corona",
+                "type": "custom-label",
+                "isReverse": "true"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5465665,45.5533517]
+            },
+            "properties": {
+                "title": "Park Querini",
+                "type": "custom-label",
+                "isReverse": "true"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.537962, 45.5416079]
+            },
+            "properties": {
+                "title": "Train station",
+                "type": "train-icon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5343142, 45.5466592]
+            },
+            "properties": {
+                "title": "Theater",
+                "type": "theater-icon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": 
+                    [11.5453434, 45.5563267]
+            },
+            "properties": {
+                "title": "Hospital",
+                "type": "hospital-icon"
+            }
+        }
+    ]
+}
+
+  

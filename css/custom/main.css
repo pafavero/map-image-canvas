@@ -1,0 +1,66 @@
+body, canvas {
+    font-family: Teko, sans-serif;
+}
+.introduction {
+    font-family: sans-serif, arial;
+}
+.div-label{
+    position: absolute;
+    background-color: #ddd;
+    padding: 4px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.map{
+    display: inline-block;
+    width: 550px;
+    height: 500px;
+    background-color: #ccc;
+    position: relative;  
+}
+#map-2-container {
+    padding: 0 110px;
+    display: inline-block;
+    position: relative;
+}
+#tooltip{
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    padding: 4px;
+    z-index: 2;
+}
+.custom-compass {
+    position: absolute;
+    top: 2.5em;
+    right: .5em;
+    width: 50px;
+    height: 50px;
+    padding:  0px;
+    margin:  0px;
+}
+.custom-compass>button {
+    width: 50px;
+    height: 50px;
+    //transition: opacity .25s linear, visibility 0s linear;
+    padding:  0px;
+    margin:  0px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../../img/compass.png');
+    cursor:pointer;
+    font-size: 2em;
+}
+.custom-compass div.arrow {
+    display: block;
+    font-weight: normal;
+    font-size: 1.2em;
+    width: 14px;
+    height: 50px;
+    margin-left: 18px;
+    background-image: url('../../img/compass-arrow.png');
+}
+.div-label-2{
+    position: absolute;
+    padding: 4px;
+}
