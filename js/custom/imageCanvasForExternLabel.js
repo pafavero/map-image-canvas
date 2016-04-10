@@ -44,7 +44,7 @@ MAP.imageCanvasForExternLabel = {
     }, function (d) {
       return d;
     });
-    _this.imageCanvasSource.changed();
+    this.imageCanvasSource.changed();
   },
   canvasFunction: function (extent, resolution, pixelRatio,
       size, projection) {
