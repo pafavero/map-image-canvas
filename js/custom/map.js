@@ -85,10 +85,13 @@ MAP.Map = (function () {
       });
       _this.vectorLayer.getVectorSource().addFeatures(_feature);
 
-      if (_this.id === 'map-1')
+      if (_this.id === 'map-1'){
         MAP.imageCanvas.addFeatures(_feature);
-      else
+        MAP.imageCanvas.imageCanvasSource.changed();
+      }else{
         MAP.imageCanvasForExternLabel.addFeatures(_feature);
+        MAP.imageCanvasForExternLabel.imageCanvasSource.changed();
+      }
     });
   };
 
