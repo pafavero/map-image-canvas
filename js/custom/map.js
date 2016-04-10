@@ -49,9 +49,7 @@ MAP.Map = (function () {
     else
       MAP.imageCanvasForExternLabel.init(this.map, this.labelStyle, 'custom-label', this.vectorLayer.getVectorSource());
     addEvents.call(this);
-    var _this = this;
-    setTimeout(function(){addJsonData.call(_this); }, 1000);
-    
+    addJsonData.call(this); 
   }
 
   // METHODS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
