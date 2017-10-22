@@ -7,7 +7,7 @@ MAP.VectorLayer = (function () {
     var _this = this;
 
     this.styleFunction = function (feature, resolution) {
-      if (feature.get('type') !== 'custom-label')
+      if (feature.get('type') !== 'custom-label') {
         return [new ol.style.Style({
             image: new ol.style.Icon({
               anchor: [0.5, 1],
@@ -15,12 +15,18 @@ MAP.VectorLayer = (function () {
               scale: 0.8
             })
           })];
-
+      }
+      
       return [new ol.style.Style({
           image: new ol.style.Circle({
             radius: _this.poiStyle.radius,
-            fill: _this.poiStyle.fillStyle,
-            stroke: new ol.style.Fill({color: _this.poiStyle.strokeStyle})
+            fill: new ol.style.Fill({
+              color: 'transparent'
+            }),
+            stroke: new ol.style.Stroke({
+              color: _this.poiStyle.strokeStyle,
+              width: 1
+            })
           })
         })];
     };
